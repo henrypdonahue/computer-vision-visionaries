@@ -7,7 +7,7 @@ If you wish to train the network, or run inference on larger videos, we recommen
 
 To download this, run:
 ```bash
-git clone https://github.com/ggallar2/Soccer-Tracking
+git clone https://github.com/henrypdonahue/computer-vision-visionaries
 ```
 
 Requirements: 
