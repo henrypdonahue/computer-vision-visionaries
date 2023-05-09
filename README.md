@@ -1,6 +1,17 @@
 # computer-vision-visionaries
 # Soccer Tracking
 
+## General Notes
+There is a file called 'working local' this should work with the cs1430 conda environment that we set 
+up at the beginning of the semester. There may be a package or two that may need to be imported. The collab
+version also works but is a bit more finicky, collab environment are weird. The local version takes 20
+minutes to run on my apple M1 chip.
+
+To reporduce our results you can find the clips at https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/data.
+
+Here is a link to a video showing one of our outputs: https://drive.google.com/file/d/15VpSJhWmz83M389a4gJ8DQl3-Guf6FIY/view
+
+
 ## Instructions for local setup.
 
 If you wish to train the network, or run inference on larger videos, we recommend running locally on WSL, as it eases many compatibility issues especially with regard to GPU acceleration in Torch/TF. We have not had success running on Windows native. 
