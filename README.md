@@ -1,6 +1,8 @@
 # computer-vision-visionaries
 # Soccer Tracking
 
+Project Poster: https://docs.google.com/presentation/d/1P_KQ3g5fIUw24oe0HVqO9D9-r9-WIs2l/edit#slide=id.p1
+
 ## General Notes
 There is a file called 'working local' this should work with the cs1430 conda environment that we set 
 up at the beginning of the semester. There may be a package or two that may need to be imported. The collab
