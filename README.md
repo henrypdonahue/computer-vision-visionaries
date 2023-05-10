@@ -7,9 +7,7 @@ up at the beginning of the semester. There may be a package or two that may need
 version also works but is a bit more finicky, collab environment are weird. The local version takes 20
 minutes to run on my apple M1 chip.
 
-To reporduce our results you can find the clips at https://www.kaggle.com/competitions/dfl-bundesliga-data-shootout/data.
-
-Here is a link to a video showing one of our outputs: https://drive.google.com/file/d/15VpSJhWmz83M389a4gJ8DQl3-Guf6FIY/view
+Demo: https://drive.google.com/file/d/15VpSJhWmz83M389a4gJ8DQl3-Guf6FIY/view
 
 
 ## Instructions for local setup.
