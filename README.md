@@ -24,7 +24,7 @@ git clone https://github.com/henrypdonahue/computer-vision-visionaries
 Requirements: 
 - Conda w/ Python 3.7, 3.8, or 3.9 (might work with more updated versions but have not been tested)
     - We recommend a conda environment
-- CUDA-enabled GPU (recommended > 8gb VRAM)
+- To train your own weights: CUDA-enabled GPU (recommended > 8gb VRAM)
 
 ## Installing YOLOv5
 - Download yolov5 by running
@@ -36,7 +36,7 @@ Then install dependencies:
 pip install -r yolov5/requirements.txt
 ```
 
-## Downloading Kaggle Bundesliga data.
+## Downloading Kaggle DFL Bundesliga data.
 While this dataset pertains to a separate problem, so it was not used to train, it does have high quality 
 videos that can be used for inference/demos.
 
@@ -58,7 +58,7 @@ pip install kaggle
 
 - Now run setup.py
     ```bash 
-    python Soccer-Tracking/setup.py
+    python Soccer-Tracking-Local/setup.py
     ```
 
 - If you get some permission error run, and try again:
@@ -148,5 +148,7 @@ Some important considerations/tips based on our experience training:
 
 ## Integrating with ByteTrack
 The provided notebook is adapted from this tutorial: https://blog.roboflow.com/track-football-players/, with some changes such as using separate player/ref/goalie and ball detection, visualization changes, etc. 
+
+We have two separate versions: working_local_version.ipynb and collab_version.ipynb.
 
 You can download our provided weights, from [Using our trained weights](#using-our-trained-weights), as well as ball-specific weights, from [Using specialized ball detection weights](#using-specialized-ball-detection-weights)
